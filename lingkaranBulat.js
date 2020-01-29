@@ -1,4 +1,4 @@
-const lingkaranBulat = (n, thisNumber) => {
+module.exports = (n, thisNumber) => {
     let arr = [];
     let arr1 = [];
     const divide = n / 2;
@@ -15,5 +15,3 @@ const lingkaranBulat = (n, thisNumber) => {
         return arr[arr1.indexOf(thisNumber)];
     }  
 };
-
-module.exports = lingkaranBulat;
